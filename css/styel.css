@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.photographer-page {
+  background-image: url(../images/photographer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+.photographer-title{
+    background-color: crimson;
+    /* position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+
+/* }
+.photographer-links{
+    background-color: cyan;
+    position: absolute;
+} */
+
+
+.photographer-title {
+  border: 1px solid white;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0;
+  color: white;
+}
+.photographer-title p {
+  padding: 10px 0;
+  font-size: 20px;
+}
+.photographer-title h1 {
+  font-size: 40px;
+}
+
+/* .photographer-links ul{
+    width: 20%;
+    margin: auto;
+    border: solid 1px;
+} */
+
+.photographer-links {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.photographer-links ul {
+  display: flex;
+  position: absolute;
+  top: -18px;
+}
+.photographer-links ul li {
+  list-style: none;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 3px;
+  color: #000;
+  font-size: 17px;
+}
+
+.photographer-links ul :hover {
+  background-color: #ccc;
+}
+
+/*************************photos***********************/
+.photo-section {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.photo-section img {
+  width: 100%;
+}
+
+.contact {
+  margin-top: 20px;
+  background-color: #f1f1f1;
+}
+.contact h2 {
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.contact p {
+  width: 95%;
+
+  font-size: 18px;
+
+  margin: auto;
+}
+
+.contact input {
+  display: block;
+  width: 95%;
+  height: 45px;
+  margin: 15px auto;
+}
+
+.contact label {
+  margin-left: 25px;
+}
+.contact-input {
+  margin-top: 50px;
+}
+.contact button {
+  display: block;
+  width: 95%;
+  margin: 20px auto 50px auto;
+  text-align: center;
+  height: 37px;
+  background-color: grey;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+.contact button:hover {
+  background-color: black;
+  color: white;
+}
+
+.contact-input p {
+  padding-bottom: 50px;
+}
+
+.contact-input p a {
+  color: #000;
+}
+.contact-input p a:hover {
+  color: yellowgreen;
+}
